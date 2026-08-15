@@ -41,7 +41,7 @@ The purpose of this repository is not only to submit completed tasks, but also t
 - 🧠 Research security concepts and translate them into practical knowledge
 - 📚 Develop SOC Analyst and Blue Team fundamentals
 
-> **Note:** All security testing documented in this repository is performed in controlled lab environments and is intended for educational purposes.
+> **Note:** All testing in this repository are performed in a sandbox environment and is intended for educational purposes.
 
 ---
 
