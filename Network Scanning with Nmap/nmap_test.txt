@@ -1,0 +1,55 @@
+#Basic Nmap Scan
+
+nmap 192.168.18.218    
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-08-23 07:02 -0400
+Nmap scan report for 192.168.18.218
+Host is up (0.00083s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+Nmap done: 1 IP address (1 host up) scanned in 5.75 seconds
+
+
+#Service Version Scan
+
+nmap -sV 192.168.18.218
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-08-23 07:04 -0400
+Nmap scan report for 192.168.18.218
+Host is up (0.0011s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3306/tcp open  tcpwrapped
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.59 seconds
+
+
+# Operating System Scan
+nmap -O 192.168.18.218 
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-08-23 07:04 -0400
+Nmap scan report for 192.168.18.218
+Host is up (0.00059s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: VoIP adapter|bridge|general purpose
+Running (JUST GUESSING): AT&T embedded (93%), Oracle Virtualbox (92%), Slirp (92%), QEMU (90%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:danny_gasparovski:slirp cpe:/a:qemu:qemu
+Aggressive OS guesses: AT&T BGW210 voice gateway (93%), Oracle Virtualbox Slirp NAT bridge (92%), QEMU user mode network gateway (90%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.03 seconds
