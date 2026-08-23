@@ -18,7 +18,7 @@ Set up and configure a basic firewall on a Linux system using UFW (Uncomplicated
 <br>
 
 ## 🔥🧱What is a firewall?  
-A firewll is physical device or software that controls incoming and outgoing network traffic based on predefined rules.  
+A firewall is physical device or software that controls incoming and outgoing network traffic based on predefined rules.  
  
 Firewalls can be used to:
 
