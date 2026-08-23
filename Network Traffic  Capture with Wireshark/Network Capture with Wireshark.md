@@ -48,13 +48,13 @@ Add your standard Kali username to the wireshark group so you can capture traffi
 * Display Filter applied: `http`
 * *Findings:* Filtered active web browsing traffic to locate unencrypted GET/POST requests.
 
-<img src="Screenshots\httpnew.png" alt="My Image" style="width: 80%; height: auto;">
+<img src="screenshots\httpnewpic.png" alt="My Image" style="width: 80%; height: auto;">
 
 ### 2. DNS Resolution Inspection
 * Display Filter applied: `dns`
 * *Findings:* Inspected UDP-based domain name queries and responses, identifying target domain names and resolved IP addresses.
 
-<img src="Screenshots\dns.png" alt="My Image" style="width: 80%; height: auto;">
+<img src="screenshots\dnsnew.png" alt="My Image" style="width: 80%; height: auto;">
 
 ### 3. TCP 3-Way Handshake Analysis
 * Display Filter applied: `tcp.flags.syn == 1 || (tcp.flags.syn == 1 && tcp.flags.ack == 1) || (tcp.flags.ack == 1 && tcp.flags.syn == 0)`
@@ -63,7 +63,7 @@ Add your standard Kali username to the wireshark group so you can capture traffi
   2. **SYN-ACK:** Server acknowledges request and responds with its own sequence number.
   3. **ACK:** Client acknowledges server response; connection established.
 
-<img src="Screenshots\tcp.png" alt="My Image" style="width: 80%; height: auto;">
+<img src="screenshots\tcpnew.png" alt="My Image" style="width: 80%; height: auto;">
 
 ---
 
