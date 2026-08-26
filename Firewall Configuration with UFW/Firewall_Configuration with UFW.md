@@ -70,7 +70,7 @@ OR
 
 ***RATIONALE***
 
-We want administrators to be able to access and manage our machine remotly.
+We want administrators to be able to access and manage our machine remotely.
 With this they're able to troubleshoot or configure network issues, see logs, and perform other important operational functions.
 
 ## 🔓🛜Blocking HTTP
