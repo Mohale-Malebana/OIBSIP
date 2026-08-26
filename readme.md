@@ -58,9 +58,6 @@ Learning how firewalls and system configurations can reduce attack surfaces and 
 ### 📡 Network Analysis
 Understanding how network traffic can be captured and analyzed to identify suspicious or unusual activity.
 
-### 🐛 Vulnerability Assessment
-Learning how vulnerability scanners can identify potentially insecure configurations and outdated services.
-
 ### 🚨 Threat Intelligence
 Developing knowledge of common cyber threats, attack techniques, indicators of compromise, and potential mitigation strategies.
 
@@ -76,7 +73,6 @@ Learning how to document findings clearly so that technical and non-technical st
 | 1 | 🔎 Network Scanning with Nmap | Reconnaissance | Beginner | [View Task](./Network%20Scanning%20with%20Nmap/) |
 | 2 | 🧱 Firewall Configuration with UFW | Defensive Security | Beginner | [View Task](./Firewall%20Configuration%20with%20UFW) |
 | 4 | 🚨 Network Security Threats Report | Security Research | Beginner | [View Task](./Research%20Report%20Common%20Network%20Security%20Threats/) |
-| 7 | 🕵️ Nikto Vulnerability Scanning | Vulnerability Assessment | Intermediate | [View Task](./Vulnerability%20Scanning%20with%20Nikto/) |
 | 8 | 📡 Wireshark Traffic Capture | Network Analysis | Intermediate | [View Task](./Network%20Traffic%20%20Capture%20with%20Wireshark/) |
 
 
@@ -88,7 +84,6 @@ Learning how to document findings clearly so that technical and non-technical st
 |---|---|
 | 🐉 **Kali Linux** | Cybersecurity testing and security tooling |
 | 🔎 **Nmap** | Network discovery and port scanning |
-| 🕵️ **Nikto** | Web server vulnerability assessment |
 | 📡 **Wireshark** | Network traffic capture and analysis |
 | 🧱 **UFW** | Linux host-based firewall |
 | 📦 **VirtualBox** | Virtual lab environment |
