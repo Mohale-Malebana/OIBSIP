@@ -27,7 +27,7 @@ But common setup or installation would go as follows:
 ```sudo apt install wireshark -y  ```
 
 **Step 3: Configure Non-Root Capture Permissions**
-During installation, a prompt asks if non-superusers should be allowed to capture packets.  
+During installation, a prompt asks if non-sudo-users should be allowed to capture packets.  
 
  >Selecting Yes would be a better option. Running Wireshark with a root is not recommended as the software is massive, complex, and parses hundreds of untrusted network protocols. A single bug or memory flaw in a protocol dissector could allow malicious network traffic to execute code with full root system access. 
 
